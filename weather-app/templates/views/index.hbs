@@ -7,31 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="/css/style.css">
+
 </head>
 
-<body>
-    <h1>{{title}}</h1>
 
+<body>
+    <h1> {{title}} </h1>
     {{>header}}
+
     <form class="weatherLocation">
         <input type="text" placeholder="Address">
-        <button>Search</button>
+        <button> Search</button>
     </form>
 
     <div class="weatherInfo">
-        <div class="temperature">
-            
-        </div>
-        <div class="description">
-
-        </div>
-        <div class="place">
-
-        </div>
+        <div class="temperature"></div>
+        <div class="description"></div>
+        <div class="place"></div>
     </div>
 
-
     {{>footer}}
+
 
     <script src="js/script.js"></script>
 </body>
